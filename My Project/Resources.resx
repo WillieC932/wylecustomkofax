@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="strBatchClass" xml:space="preserve">
+    <value>Batch class:</value>
+  </data>
+  <data name="strDocClass" xml:space="preserve">
+    <value>Document class:</value>
+  </data>
+  <data name="strAllFiles" xml:space="preserve">
+    <value>All Files</value>
+  </data>
+  <data name="strDocumentId" xml:space="preserve">
+    <value>Document ID</value>
+  </data>
+  <data name="strName" xml:space="preserve">
+    <value>&amp;Name:</value>
+  </data>
+  <data name="strTitleSelectImgDir" xml:space="preserve">
+    <value>Select Image Export Directory</value>
+  </data>
+  <data name="strTitleSelectOcrDir" xml:space="preserve">
+    <value>Select OCR Export Directory</value>
+  </data>
+  <data name="strDataVerifyFail" xml:space="preserve">
+    <value>Data Verification Failed</value>
+  </data>
+  <data name="strTitleSaveSettings" xml:space="preserve">
+    <value>Save Settings</value>
+  </data>
+  <data name="strTitleDirNotExist" xml:space="preserve">
+    <value>Drive/Directory Problem</value>
+  </data>
+  <data name="strDataVerify" xml:space="preserve">
+    <value>Data Verification</value>
+  </data>
+  <data name="strTitleSelectPdfDir" xml:space="preserve">
+    <value>Select Kofax PDF Export Directory</value>
+  </data>
+  <data name="strBadDestination" xml:space="preserve">
+    <value>Name must be 32 characters or less.</value>
+  </data>
+  <data name="strSaveSettings" xml:space="preserve">
+    <value>Do you wish to save the current settings?</value>
+  </data>
+  <data name="strBadDriveLetter" xml:space="preserve">
+    <value>The drive letter is missing or bad.</value>
+  </data>
+  <data name="strAskToCreateDir" xml:space="preserve">
+    <value>{0}
+The directory does not exist. Create it?</value>
+  </data>
+  <data name="strNotAllIndexFieldsUsed" xml:space="preserve">
+    <value>The following Index Fields were not used.</value>
+  </data>
+  <data name="strNotAllBatchFieldsUsed" xml:space="preserve">
+    <value>The following Batch Fields were not used.</value>
+  </data>
+  <data name="strNoImageDirectory" xml:space="preserve">
+    <value>No directory was specified for Image Files.</value>
+  </data>
+  <data name="strBadImageDirectory" xml:space="preserve">
+    <value>An invalid directory was specified for Image Files.</value>
+  </data>
+  <data name="strBadOcrDirectory" xml:space="preserve">
+    <value>An invalid directory was specified for OCR Full Text Files.</value>
+  </data>
+  <data name="strNoOcrDirectory" xml:space="preserve">
+    <value>No directory was specified for OCR Full Text Files.</value>
+  </data>
+  <data name="strOcrFilesDiscarded" xml:space="preserve">
+    <value>OCR Full Text Files will be discarded at export time.</value>
+  </data>
+  <data name="strUseDefault" xml:space="preserve">
+    <value>The current settings are unusable.  Do you want to use the default settings?</value>
+  </data>
+  <data name="strAndMore" xml:space="preserve">
+    <value>and More</value>
+  </data>
+  <data name="strBadKfxPdfDirectory" xml:space="preserve">
+    <value>An invalid directory was specified for Kofax PDF Files.</value>
+  </data>
+  <data name="strNoKfxPdfDirectory" xml:space="preserve">
+    <value>The Kofax PDF export directory cannot be blank. Please specify a valid path.</value>
+  </data>
+  <data name="strPdfSetupFailed" xml:space="preserve">
+    <value>You have previously selected PDF 2.01 image format which is no longer supported in this release of Kofax Capture.
+The image format will be set to Multipage TIFF - CCITT Group 4.</value>
+  </data>
+  <data name="strPdfPublishFailed" xml:space="preserve">
+    <value>The PDF 2.01 image format is not supported.
+Please run export setup to choose a different image format.</value>
+  </data>
+  <data name="strDsn" xml:space="preserve">
+    <value>Data &amp;source name:</value>
+  </data>
+  <data name="strAccessDb" xml:space="preserve">
+    <value>Access (.mdb) &amp;file name:</value>
+  </data>
+  <data name="strAccessDatabases" xml:space="preserve">
+    <value>Access Databases</value>
+  </data>
+  <data name="strWorkgroupFiles" xml:space="preserve">
+    <value>Workgroup Files</value>
+  </data>
+  <data name="strTitleReleaseSetupError" xml:space="preserve">
+    <value>Database Export Setup Error</value>
+  </data>
+  <data name="strTitleDatabase" xml:space="preserve">
+    <value>Database Export Setup</value>
+  </data>
+  <data name="strDbConnectionFailed" xml:space="preserve">
+    <value>Database Connection Failure</value>
+  </data>
+  <data name="strTitleReleaseError" xml:space="preserve">
+    <value>Database Export Error</value>
+  </data>
+  <data name="strBadConnectionString" xml:space="preserve">
+    <value>The connection string value is either missing or invalid.  Please check this value and try again.</value>
+  </data>
+  <data name="strBreakAllDbLinks" xml:space="preserve">
+    <value>Changing this value will break all of the currently defined links.  Continue?</value>
+  </data>
+  <data name="strBadDbType" xml:space="preserve">
+    <value>Bad database type selection.</value>
+  </data>
+  <data name="strBreakDocIdPath" xml:space="preserve">
+    <value>Changing the Documents table will break the current Document ID and Document Path links.  Continue?</value>
+  </data>
+  <data name="strBreakIndexLinks" xml:space="preserve">
+    <value>Changing this table will cause all of the index links to be broken.  Continue?</value>
+  </data>
+  <data name="strNotADocTable" xml:space="preserve">
+    <value>The selected table cannot be used as the Documents table.</value>
+  </data>
+  <data name="strOdbcFailed" xml:space="preserve">
+    <value>Unable to build list of ODBC Data Sources.</value>
+  </data>
+  <data name="strNotConnectedToDb" xml:space="preserve">
+    <value>Unable to connect to the database.</value>
+  </data>
+  <data name="strNoIndexTable" xml:space="preserve">
+    <value>An Index table was not selected.</value>
+  </data>
+  <data name="strNoDocTable" xml:space="preserve">
+    <value>No Documents table was selected.</value>
+  </data>
+  <data name="strNoDocIdLink" xml:space="preserve">
+    <value>No Document ID link has been selected.</value>
+  </data>
+  <data name="strNoDocPathLink" xml:space="preserve">
+    <value>No Document path link has been selected.</value>
+  </data>
+  <data name="strIndexSameAsDoc" xml:space="preserve">
+    <value>Index is same as document.</value>
+  </data>
+  <data name="strRemoveLinkOrQuit" xml:space="preserve">
+    <value>Press OK to remove the associated link or Cancel to exit Export Setup.</value>
+  </data>
+  <data name="strBadWorkgroupName" xml:space="preserve">
+    <value>The workgroup file name is invalid.  Please check this value and try again.</value>
+  </data>
+  <data name="strLinkToRequiredFieldMissing" xml:space="preserve">
+    <value>You must have a link to all required database fields.</value>
+  </data>
+  <data name="strMissingDocIdLink" xml:space="preserve">
+    <value>The required link to the Document ID is missing</value>
+  </data>
+  <data name="strBadAccessName" xml:space="preserve">
+    <value>The Access database file name is either missing or invalid.  Please check this value and try again.</value>
+  </data>
+  <data name="strNoValidDocId" xml:space="preserve">
+    <value>The table contains no columns that can be mapped to the Document ID.  The Document ID requires a column with datatype Integer (2 bytes) or Long Integer (4 bytes).</value>
+  </data>
+  <data name="strNoValidDocPath" xml:space="preserve">
+    <value>The table contains no columns that can be mapped to the Document Path.  The Document Path requires a column with datatype Char, Text, or Memo.</value>
+  </data>
+  <data name="strDocAlreadyReleased" xml:space="preserve">
+    <value>This document was already exported</value>
+  </data>
+  <data name="strIndexColumnMissing" xml:space="preserve">
+    <value>This column is missing in the Index table of your database</value>
+  </data>
+  <data name="strDocColumnMissing" xml:space="preserve">
+    <value>This column is missing in the Documents table of your database</value>
+  </data>
+  <data name="strIndexColumnError" xml:space="preserve">
+    <value>Index Table column</value>
+  </data>
+  <data name="strDocColumnError" xml:space="preserve">
+    <value>Document Table column</value>
+  </data>
+  <data name="strDocTableError" xml:space="preserve">
+    <value>Document Table</value>
+  </data>
+  <data name="strOdbcEnvironment" xml:space="preserve">
+    <value>Could not allocate the ODBC environment.</value>
+  </data>
+  <data name="strReadOnlyError" xml:space="preserve">
+    <value>Probably lacking unique index.</value>
+  </data>
+  <data name="strMissingImageType" xml:space="preserve">
+    <value>Missing image type:</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="IndexValueButtonImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAIVJREFUWEftlFEK
+        wCAMQ73/pZ2T9Webiw0BwaXQL2sbX9RSHCZgAiaACdRWwibuPlFxDmeC3feYxTZi9w0FfNnwRkguIGuD
+        UkBtzbLZL64kruGzLyGEygUsJUCRVFrQBaDP6K5SLiCLYT8ByIJYD1L7EVh+B5AFe78CdPrRetY215vA
+        DwkcmECiXhuaeXQAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="strDatabaseColumns" xml:space="preserve">
+    <value>Database Columns</value>
+  </data>
+  <data name="strIndexValue" xml:space="preserve">
+    <value>Index Value</value>
+  </data>
+  <data name="strNotValidIndexTable" xml:space="preserve">
+    <value>The selected table contains no columns. Add columns to the table before proceeding.</value>
+  </data>
+  <data name="strNotValidTable" xml:space="preserve">
+    <value>You do not have the required permission for the selected table ‘{0}'. Add the necessary permissions to the table before proceeding.</value>
+  </data>
+  <data name="TXT_LocalizedValueTrue" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="strTextBatchFields" xml:space="preserve">
+    <value>Batch Fields</value>
+  </data>
+  <data name="strTextConst" xml:space="preserve">
+    <value>Text Constant</value>
+  </data>
+  <data name="strTextDocIndexField" xml:space="preserve">
+    <value>Document Index Fields</value>
+  </data>
+  <data name="strTextFolderIndexField" xml:space="preserve">
+    <value>Folder Index Fields</value>
+  </data>
+  <data name="strTextKCValues" xml:space="preserve">
+    <value>Kofax Capture Values</value>
+  </data>
+  <data name="strTextUnlinkField" xml:space="preserve">
+    <value>Unlink Field</value>
+  </data>
+</root>

@@ -1,0 +1,272 @@
+﻿<Project DefaultTargets="Build" ToolsVersion="3.5" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <MyType>Windows</MyType>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{08910A9A-5DA6-4DB4-8746-B67AA1377355}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <AssemblyName>TWG.Wyle.PdfByTitle</AssemblyName>
+    <OutputType>Library</OutputType>
+    <AssemblyMajorVersion>1</AssemblyMajorVersion>
+    <AssemblyMinorVersion>0</AssemblyMinorVersion>
+    <AssemblyRevisionNumber>0</AssemblyRevisionNumber>
+    <GenerateRevisionNumber>False</GenerateRevisionNumber>
+    <AssemblyCompanyName>Kofax Image Products</AssemblyCompanyName>
+    <StartWithIE>False</StartWithIE>
+    <RootNamespace>TWG.PdfByTitle</RootNamespace>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OptionStrict>Off</OptionStrict>
+    <SignAssembly>false</SignAssembly>
+    <AssemblyOriginatorKeyFile />
+    <RunPostBuildEvent>OnOutputUpdated</RunPostBuildEvent>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <SccProjectName />
+    <SccLocalPath />
+    <SccAuxPath>Rational ClearCase</SccAuxPath>
+    <SccProvider />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug</OutputPath>
+    <DocumentationFile>Kofax.xml</DocumentationFile>
+    <DebugSymbols>True</DebugSymbols>
+    <DefineDebug>True</DefineDebug>
+    <DefineTrace>True</DefineTrace>
+    <DefineConstants>Win32=True</DefineConstants>
+    <PlatformTarget>x86</PlatformTarget>
+    <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</NoWarn>
+    <DebugType>full</DebugType>
+    <WarningsAsErrors>
+    </WarningsAsErrors>
+    <RegisterForComInterop>true</RegisterForComInterop>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release</OutputPath>
+    <DocumentationFile>Kofax.xml</DocumentationFile>
+    <DebugSymbols>true</DebugSymbols>
+    <DefineDebug>False</DefineDebug>
+    <DefineTrace>True</DefineTrace>
+    <DefineConstants>Win32=True</DefineConstants>
+    <PlatformTarget>x86</PlatformTarget>
+    <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</NoWarn>
+    <DebugType>Full</DebugType>
+    <WarningsAsErrors>
+    </WarningsAsErrors>
+    <RegisterForComInterop>true</RegisterForComInterop>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="adodb, Version=7.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    </Reference>
+    <Reference Include="Kofax.CapLib4.Interop, Version=6.0.0.0, Culture=neutral, PublicKeyToken=2a06c44ecf114f0f, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Kofax\Capture\Bin\Kofax.CapLib4.Interop.dll</HintPath>
+    </Reference>
+    <Reference Include="Kofax.ReleaseLib.Interop, Version=1.0.0.0, Culture=neutral, PublicKeyToken=2a06c44ecf114f0f, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\busserv\bin\Kofax.ReleaseLib.Interop.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic.Compatibility">
+      <Name>Microsoft.VisualBasic.Compatibility</Name>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic.Compatibility.Data">
+      <Name>Microsoft.VisualBasic.Compatibility.Data</Name>
+    </Reference>
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Name>System.Drawing</Name>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <Name>System.Windows.Forms</Name>
+    </Reference>
+    <Reference Include="System.XML">
+      <Name>System.XML</Name>
+    </Reference>
+    <COMReference Include="KHelpFinder">
+      <Guid>{CFE01DAF-D8DA-11D3-9701-00A0C98F30D0}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="Microsoft.StdFormat">
+      <Guid>{6B263850-900B-11D0-9484-00A0C91110ED}</Guid>
+      <Lcid>0</Lcid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <WrapperTool>primary</WrapperTool>
+    </COMReference>
+    <COMReference Include="Scripting">
+      <Guid>{420B2830-E718-11CF-893D-00A0C9054228}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="stdole">
+      <Guid>{00020430-0000-0000-C000-000000000046}</Guid>
+      <Lcid>0</Lcid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <WrapperTool>primary</WrapperTool>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic">
+    </Import>
+    <Import Include="Microsoft.VisualBasic.Compatibility">
+    </Import>
+    <Import Include="System">
+    </Import>
+    <Import Include="System.Collections">
+    </Import>
+    <Import Include="System.Data">
+    </Import>
+    <Import Include="System.Diagnostics">
+    </Import>
+    <Import Include="System.Drawing">
+    </Import>
+    <Import Include="System.Linq">
+    </Import>
+    <Import Include="System.Windows.Forms">
+    </Import>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.vb">
+    </Compile>
+    <Compile Include="ComDisposer.vb">
+    </Compile>
+    <Compile Include="ComEnumerator.vb">
+    </Compile>
+    <Compile Include="Common.vb">
+    </Compile>
+    <Compile Include="CustomPropertiesReaderWriter.vb">
+    </Compile>
+    <Compile Include="DatabaseConnectionException.vb">
+    </Compile>
+    <Compile Include="DatabaseFile.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DataConvertException.vb">
+    </Compile>
+    <Compile Include="DataGridViewIndexValueCell.vb">
+    </Compile>
+    <Compile Include="DataGridViewIndexValueColumn.vb">
+    </Compile>
+    <Compile Include="DataGridViewIndexValueEditingControl.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DocumentColumnException.vb">
+    </Compile>
+    <Compile Include="DocumentTableException.vb">
+    </Compile>
+    <Compile Include="DuplicateKeyException.vb">
+    </Compile>
+    <Compile Include="ErrorProvider.vb">
+    </Compile>
+    <Compile Include="Help.vb">
+    </Compile>
+    <Compile Include="ImageType.vb">
+    </Compile>
+    <Compile Include="ImageTypeComboBoxItem.vb">
+    </Compile>
+    <Compile Include="IndexColumnMissingException.vb">
+    </Compile>
+    <Compile Include="IndexValueDataGridView.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="IndexValueTextBox.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Link.vb">
+    </Compile>
+    <Compile Include="Main.Designer.vb">
+      <SubType>Code</SubType>
+      <DependentUpon>Main.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Main.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="ODBC.Designer.vb">
+      <SubType>Code</SubType>
+      <DependentUpon>ODBC.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ODBC.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ODBCAPI.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="OdbcEnvironmentException.vb">
+    </Compile>
+    <Compile Include="OdbcFailedException.vb">
+    </Compile>
+    <Compile Include="ReadOnlyException.vb">
+    </Compile>
+    <Compile Include="Release.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ReleaseSetupData.vb">
+    </Compile>
+    <Compile Include="ResConst.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SafeSQLEnvironmentHandle.vb">
+    </Compile>
+    <Compile Include="Setup.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="UICode.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <EmbeddedResource Include="DataGridViewIndexValueEditingControl.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>DataGridViewIndexValueEditingControl.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main.resX">
+      <DependentUpon>Main.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ODBC.resX">
+      <DependentUpon>ODBC.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="TWGWylePdfByTitle.inf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets">
+  </Import>
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent />
+  </PropertyGroup>
+</Project>

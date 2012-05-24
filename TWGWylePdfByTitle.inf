@@ -1,0 +1,16 @@
+[Scripts]
+Wyle Custom DB Release
+
+[Wyle Custom DB Release]
+SetupModule=TWG.Wyle.PdfByTitle.dll
+SetupProgID=CustomDBRelPdfRename.kfxreleasesetupscript
+SetupVersion=9.0
+ReleaseModule=TWG.Wyle.PdfByTitle.dll
+ReleaseProgID=CustomDBRelPdfRename.kfxreleasescript
+ReleaseVersion=9.0
+SupportsNonImageFiles=False
+SupportsKofaxPDF=True
+RemainLoaded=True
+SupportsOriginalFileName=False
+SupportsMultipleInstances=True
+DisplayName=Wyle Custom DB Release
